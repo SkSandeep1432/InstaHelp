@@ -1,0 +1,19 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "InstaHelp Frontend (Angular)",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "frontend", "run", "start"],
+      "port": 4200,
+      "autoPort": false
+    },
+    {
+      "name": "InstaHelp Backend (Spring Boot)",
+      "runtimeExecutable": "cmd",
+      "runtimeArgs": ["/c", "cd backend && mvn spring-boot:run"],
+      "port": 8081,
+      "autoPort": false
+    }
+  ]
+}
